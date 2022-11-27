@@ -4,3 +4,9 @@ GitHub Action の管理をするときに, パッケージごとにバージョ�
 
 - macOS version
 - Swift version
+
+## 使い方
+
+- 各ブランチは Swift バージョンに対応しています.
+- 一つのブランチに複数の macOS バージョンのテストを含んでいます.
+- 新しい Swift バージョンブランチを作成する場合は feat/base からブランチを作成して編集します.
