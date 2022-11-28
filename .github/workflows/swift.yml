@@ -12,31 +12,28 @@ on:
 jobs:
   macos-latest:
     runs-on: macos-latest
+    timeout-minutes: 5
     steps:
     - uses: actions/checkout@v3
     - name: Build
       run: swift build -v
-      timeout-minutes: 3
     - name: Run tests
       run: swift test -v
-      timeout-minutes: 3
   macos-12:
     runs-on: macos-12
+    timeout-minutes: 5
     steps:
     - uses: actions/checkout@v3
     - name: Build
       run: swift build -v
-      timeout-minutes: 3
     - name: Run tests
       run: swift test -v
-      timeout-minutes: 3
   macos-11:
     runs-on: macos-11
+    timeout-minutes: 5
     steps:
     - uses: actions/checkout@v3
     - name: Build
       run: swift build -v
-      timeout-minutes: 3
     - name: Run tests
       run: swift test -v
-      timeout-minutes: 3
