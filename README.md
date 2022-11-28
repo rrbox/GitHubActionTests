@@ -5,6 +5,8 @@ GitHub Action の管理をするときに, パッケージごとにバージョ�
 - macOS version
 - Swift version
 
+公式 : https://github.com/actions/runner-images
+
 ## 使い方
 
 - 各ブランチは Swift バージョンに対応しています.
